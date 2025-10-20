@@ -1,6 +1,19 @@
 # ELEVATE_LABS_TASK_1
 TASK 1: Create a Cloud Storage Bucket and Upload Files
 
+## 📘 WHAT I DID FOR THE PROJECT:-
+
+1. 🪣 **Created S3 Bucket**  
+   - Set up a new Amazon S3 bucket to host files.
+
+2. 📤 **Deployed Image & Text File**  
+   - 🖼️ Uploaded both an image and a text file to the bucket  
+   - 🔗 Object URLs Generated  
+   - 🌐 AWS automatically provided public URLs for each object  
+   - 🌍 Accessed via Browser  
+   - ✅ Successfully viewed both the image and text file using their respective URLs in a web browser
+
+
 
 ##  S3 Bucket Migration
 
@@ -20,7 +33,7 @@ Understand how cloud object storage works by:
 
 - Creating a storage bucket
 - Uploading a sample file
-- Accessing the file via a public URL
+- Accessing the file via aan object or public URL
 
 ---
 
@@ -47,7 +60,7 @@ Understand how cloud object storage works by:
    - Leave default settings (private or public as needed)
 
 4. **Upload a Sample File**  
-   - Use a `.txt` or `.jpg` file for demonstration
+   - Use a `.txt` or `.png` file for demonstration
 
 5. **Copy the Public URL** (if public access is enabled)
 
@@ -58,10 +71,18 @@ Understand how cloud object storage works by:
 
 ## ✅ Deliverables
 
-- 📸 **Screenshot** showing successful file upload
+- 📸 **Screenshots** showing successful file uploads.
 - 🔗 **Public URL** given in the files.
 
 ---
+
+
+
+## CHALLENGES FACED:
+ - WHEN OBJECTS WHERE PRIVATE HAD TO CHANGE SOME PERMISSONS OF THE S3 BUCKET TO MAKE IT PUBLIC.
+ - EVEN AFTER THIS STILL THE URL WASNOT WORKING BECAUSE NOW THE CONCERN WAS BUCKET WAS PUBLIC BUT NOT THE OBJECT SO WE HAD TO MAKE THE OBJECT PUBLIC BY CHANGING THE ACL PERMISSIONS OF THE IMAGE .PNG OR .TXT FILE.
+ - IN BETWEEN THERE WAS A SERVER OUTAGE FOR NORTH VIRGINIA AND IT WAS AN OPERATIONAL ISSUE AND HAD TO WAIT IN ORDER TO DELETE THE S3 BUCKET.
+   
 
 ## 📁 Folder Structure
 
@@ -70,3 +91,5 @@ cloud-storage-task/
 ├── screenshots/           # Upload screenshots of successful file upload
 ├── sample-files/          # Sample text/image files used for upload
 ├── README.md              # Project documentation
+
+
