@@ -1,6 +1,13 @@
 # ELEVATE_LABS_TASK_1
 TASK 1: Create a Cloud Storage Bucket and Upload Files
 
+
+##  S3 Bucket Migration
+
+![Alt text](https://miro.medium.com/v2/format:jpg/resize:fill:112:112/gravity:fp:0.50:0.50/1*ClAVK-vmBBqzex8eLmWkCw.gif)
+
+
+
 # ☁️ Cloud Storage Bucket & File Upload Task
 
 This project demonstrates the basics of cloud object storage using **AWS S3** or **Google Cloud Storage** (Free Tier). It walks through creating a bucket, uploading files, and accessing them via public URLs — a foundational skill for cloud engineers and developers.
