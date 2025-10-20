@@ -52,7 +52,7 @@ Understand how cloud object storage works by:
 ## ✅ Deliverables
 
 - 📸 **Screenshot** showing successful file upload
-- 🔗 **Public URL** (if applicable)
+- 🔗 **Public URL** given in the files.
 
 ---
 
